@@ -16,7 +16,6 @@ docker --version
 ```
 
 
-====================================
 #### Docker commands
 
 **List out all the images**
@@ -45,9 +44,9 @@ docker run <image-name>
 
 You can also specify options to customize the container, such as:
 
-`-p <host-port>:<container-port>`: maps a host port to a container port
-`-v <host-path>:<container-path>`: mounts a host directory as a volume in the container
-`-e <env-variable>=<value>`: sets an environment variable in the container
+* `-p <host-port>:<container-port>`: maps a host port to a container port
+* `-v <host-path>:<container-path>`: mounts a host directory as a volume in the container
+* `-e <env-variable>=<value>`: sets an environment variable in the container
 
 
 **Stop Container**
