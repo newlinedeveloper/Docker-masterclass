@@ -11,13 +11,12 @@ Please check this link : https://docs.docker.com/engine/install/
 Install Docker based on your system configurations
 
 
-
-docker version
+docker --version
 
 ```
 
 
-
+====================================
 #### Docker commands
 
 
@@ -28,14 +27,3 @@ docker version
 
 
 
-
-#### Dockerfile creation
-
-
-
-
-
-
-
-
-#### Docker-compose file creation
