@@ -29,6 +29,17 @@ docker images
 docker ps -a
 ```
 
+**Search images**
+```
+docker search centos
+```
+
+**Pull image**
+
+```
+docker pull centos
+```
+
 
 **Build Docker images**
 
@@ -60,6 +71,9 @@ docker stop <container-id>
 ```
 docker rm <container-id>
 ```
+
+
+
 
 
 
