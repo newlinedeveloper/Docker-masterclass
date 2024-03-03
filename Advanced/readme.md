@@ -20,6 +20,13 @@ RUN npm run build
 CMD ["npm","start"]
 ```
 
+```
+docker build -t web-app:v1.0 .
+
+docker run -p 3000:3000 web-app:v1.0 
+
+```
+
 
 ### Golang App Dockerfile
 ```
@@ -40,6 +47,12 @@ EXPOSE 8000
 CMD ["./main"]
 ```
 
+```
+docker build -t go-api:v1.0 .
+
+docker run -p 8000:8000 go-api:v1.0 
+
+```
 
 
 #### Docker-compose file creation
@@ -81,8 +94,3 @@ volumes:
 
 
 ```
-
-
-
-
-
