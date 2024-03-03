@@ -128,12 +128,14 @@ function Dashboard() {
 
   return (
     <div>
-        <div style={{ textAlign: "center"}}>
-            <h2>Cloudnloud Team Members</h2>
+        <div style={{ textAlign: "center" , marginTop: "20px"}}>
+            <h1>Cloud Native Madurai Members</h1>
         </div>
-        <Button type='primary' style={{ float: "right", marginBottom: "10px"}} onClick={() => setIsAddModalOpen(true)}>Add Member</Button>
-        <Table columns={columns} dataSource={membersList} />
-
+        <div style={{ padding: "50px"}}>
+          <Button type='primary' style={{ float: "right", marginBottom: "10px"}} onClick={() => setIsAddModalOpen(true)}>Add Member</Button>
+          <Table columns={columns} dataSource={membersList} />
+        </div>
+      
         <AddMemberModal
             isAddModalOpen={isAddModalOpen}
             AddMember={AddMember}
