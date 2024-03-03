@@ -73,10 +73,20 @@ docker rm <container-id>
 ```
 
 
+**Inspect Container**
 
+```
+docker container inspect 9abcc2cfa22e
+```
 
+**Inspect Image**
 
+```
+docker image inspect nginx
+```
 
+**Get into Docker Container file system**
 
-
-
+```
+docker exec -it 4471 sh
+```
